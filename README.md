@@ -88,4 +88,6 @@ The project promotes environmental awareness and sustainable living through data
 
 Passionate about Software Development, Data Science, Machine Learning, and creating impactful technology solutions.
 
+🌐 Live Demo: https://splendid-fudge-521fc5.netlify.app/
+
 ⭐ If you found this project interesting, consider giving it a star on GitHub!
