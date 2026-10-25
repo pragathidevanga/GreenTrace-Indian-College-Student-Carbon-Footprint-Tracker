@@ -1,270 +1,290 @@
-# 🌱 GreenTrace – Indian College Student Carbon Footprint Tracker 🌍
+# 🌱 GreenTrace — Indian College Student Carbon Footprint Tracker
 
-![React](https://img.shields.io/badge/React.js-Frontend-61DAFB?style=for-the-badge&logo=react)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript)
-![HTML5](https://img.shields.io/badge/HTML5-Markup-E34F26?style=for-the-badge&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3)
-![Sustainability](https://img.shields.io/badge/Sustainability-Green-success?style=for-the-badge)
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:14532D,50:15803D,100:84CC16&height=210&section=header&text=GreenTrace&fontSize=52&fontColor=ffffff&animation=fadeIn&desc=Track%20Your%20Impact.%20Choose%20a%20Greener%20Future.&descSize=15&descAlignY=68" width="100%" alt="GreenTrace forest green and lime banner"/>
+</p>
 
----
+<p align="center">
+  A sustainability-focused project designed to help Indian college students explore the environmental impact of everyday products through lifecycle analysis.
+</p>
 
-# 🌍 Project Overview
+<p align="center">
+  <a href="https://splendid-fudge-521fc5.netlify.app/">
+    <img src="https://img.shields.io/badge/🌍_Live_Demo-Explore_GreenTrace-15803D?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo"/>
+  </a>
+</p>
 
-Welcome to **GreenTrace – Indian College Student Carbon Footprint Tracker**!
-
-GreenTrace is a sustainability-focused web application developed to help **Indian college students understand, calculate, and reduce their carbon footprint** through informed lifestyle choices.
-
-The platform allows users to estimate their environmental impact based on daily activities such as transportation, food consumption, electricity usage, shopping habits, and waste generation. It also provides personalized sustainability recommendations to encourage eco-friendly living.
-
-This project was developed with the vision of promoting **environmental awareness**, **responsible consumption**, and **data-driven sustainability** among students.
-
----
-
-# 🎯 Project Objectives
-
-✅ Calculate individual carbon footprint
-
-✅ Promote sustainable lifestyle choices
-
-✅ Increase environmental awareness
-
-✅ Encourage responsible consumption
-
-✅ Provide personalized sustainability tips
-
-✅ Visualize carbon emissions through interactive dashboards
-
-✅ Support climate-conscious decision-making
-
-✅ Inspire students to reduce their environmental impact
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Sustainability-14532D?style=flat-square" alt="Sustainability"/>
+  <img src="https://img.shields.io/badge/Analysis-Lifecycle-15803D?style=flat-square" alt="Lifecycle Analysis"/>
+  <img src="https://img.shields.io/badge/Impact-Environmental%20Awareness-65A30D?style=flat-square" alt="Environmental Awareness"/>
+</p>
 
 ---
 
-# 🌱 Problem Statement
+## 📌 Table of Contents
+
+- [📖 About the Project](#-about-the-project)
+- [🎯 Objectives](#-objectives)
+- [✨ Key Features](#-key-features)
+- [🌍 Environmental Indicators](#-environmental-indicators)
+- [🛠️ Technology Stack](#️-technology-stack)
+- [📸 Screenshots](#-screenshots)
+- [⚙️ Installation and Setup](#️-installation-and-setup)
+- [📁 Project Structure](#-project-structure)
+- [🚀 Live Demo](#-live-demo)
+- [🔮 Future Improvements](#-future-improvements)
+- [🤝 Contributing](#-contributing)
+- [👩‍💻 Author](#-author)
+
+## 📖 About the Project
+
+**GreenTrace** is an Indian college student carbon footprint tracker focused on building awareness of the environmental impact associated with everyday products.
+
+The project explores the lifecycle impact of **20 Indian products**, using environmental indicators such as carbon dioxide emissions, water consumption, energy use, and waste.
+
+GreenTrace aims to make sustainability information easier to explore and help users think more carefully about their everyday purchasing decisions.
+
+🌱 **Mission:** Encourage more environmentally conscious choices through accessible sustainability information.
 
-Climate change is one of the world's biggest challenges, and everyday lifestyle choices significantly contribute to greenhouse gas emissions.
+## 🎯 Objectives
 
-Many college students are unaware of how transportation, food habits, electricity usage, and shopping decisions affect the environment.
+- 🌍 Increase awareness of everyday product environmental impacts.
+- 📊 Explore lifecycle impacts across 20 Indian products.
+- 💨 Highlight carbon dioxide emissions.
+- 💧 Examine water consumption.
+- ⚡ Consider energy use.
+- ♻️ Bring attention to waste generation.
+- 💡 Encourage users to consider more sustainable alternatives.
 
-**GreenTrace** bridges this gap by helping students measure, understand, and improve their environmental impact through a simple, interactive platform.
+## ✨ Key Features
 
----
+### 🌱 1. Product Lifecycle Analysis
 
-# ✨ Key Features
+Explore lifecycle information for 20 Indian products to understand their environmental impacts.
 
-🌍 Carbon Footprint Calculator
+### 💨 2. Carbon Footprint Indicators
 
-🚶 Daily Activity Tracking
+Examine the carbon dioxide emissions associated with the products represented in the project.
 
-🚗 Transportation Emission Analysis
+### 💧 3. Water Consumption
 
-⚡ Electricity Consumption Analysis
+Explore water-use indicators to understand another important dimension of environmental impact.
 
-🍽️ Food Consumption Impact
+### ⚡ 4. Energy Use
 
-🛍️ Shopping & Lifestyle Tracking
+Consider energy consumption as part of the broader product lifecycle.
 
-♻️ Waste Management Awareness
+### ♻️ 5. Waste Indicators
 
-📊 Interactive Charts & Visualizations
+Explore waste-related impacts to encourage awareness of resource use and disposal.
 
-💡 Personalized Eco-Friendly Suggestions
+### 🔄 6. “Should I Switch?” Feature
 
-🌿 "Should I Switch?" Sustainable Product Recommendation Feature
+Use the **Should I Switch?** feature to explore sustainability-related product choices and consider whether an alternative may be preferable.
 
-📱 Responsive User Interface
+*The information and comparisons displayed depend on the data and functionality implemented in the application.*
 
----
+## 🌍 Environmental Indicators
 
-# 📊 Carbon Footprint Categories
+GreenTrace considers four environmental dimensions:
 
-🚗 Transportation
+<box gap={2}>
+  <row align="center" gap={3}>
+    <box background="#DCFCE7" radius="lg" size="48px" align="center" justify="center">
+      <icon name="cloud" color="#166534" size="xl" />
+    </box>
+    <box flex="1" gap={1}>
+      **Carbon dioxide emissions**
+      <text color="secondary" size="sm">Understand the climate impact associated with products.</text>
+    </box>
+  </row>
+  <row align="center" gap={3}>
+    <box background="#DCFCE7" radius="lg" size="48px" align="center" justify="center">
+      <icon name="droplets" color="#166534" size="xl" />
+    </box>
+    <box flex="1" gap={1}>
+      **Water consumption**
+      <text color="secondary" size="sm">Explore the water resources involved in product lifecycles.</text>
+    </box>
+  </row>
+  <row align="center" gap={3}>
+    <box background="#DCFCE7" radius="lg" size="48px" align="center" justify="center">
+      <icon name="zap" color="#166534" size="xl" />
+    </box>
+    <box flex="1" gap={1}>
+      **Energy use**
+      <text color="secondary" size="sm">Consider energy requirements associated with products.</text>
+    </box>
+  </row>
+  <row align="center" gap={3}>
+    <box background="#DCFCE7" radius="lg" size="48px" align="center" justify="center">
+      <icon name="recycle" color="#166534" size="xl" />
+    </box>
+    <box flex="1" gap={1}>
+      **Waste**
+      <text color="secondary" size="sm">Explore waste generation as an environmental consideration.</text>
+    </box>
+  </row>
+</box>
 
-⚡ Electricity Usage
+## 🛠️ Technology Stack
 
-🍽️ Food & Dietary Habits
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,python,git,github,vscode" alt="HTML, CSS, JavaScript, Python and development tools"/>
+</p>
 
-🛍️ Shopping Behavior
+| Technology | Role |
+|---|---|
+| HTML | Webpage structure |
+| CSS | Styling and visual presentation |
+| JavaScript | Frontend interactions |
+| Python | Supporting application logic, where implemented |
 
-🗑️ Waste Generation
+The listed technologies are based on the project details provided. Their exact responsibilities depend on the source code in the repository.
 
-💧 Daily Lifestyle Activities
+## 📸 Screenshots
 
----
+Add screenshots from your actual GreenTrace application to showcase its interface and functionality.
 
-# 📈 Dashboard Insights
+Recommended screenshots:
 
-📊 Total Carbon Footprint
+- 🏠 Main application page
+- 🌱 Product lifecycle information
+- 📊 Environmental indicators
+- 🔄 “Should I Switch?” feature
 
-🌍 Category-wise Carbon Emissions
+After adding screenshots to your repository, you can display them using Markdown:
 
-📈 Monthly Emission Trends
+```markdown
+### 🏠 GreenTrace Application
+![GreenTrace Application](screenshots/home.png)
 
-💡 Sustainability Score
+### 🌍 Product Lifecycle Analysis
+![Product Lifecycle Analysis](screenshots/lifecycle-analysis.png)
 
-♻️ Personalized Green Recommendations
-
-🎯 Carbon Reduction Opportunities
-
----
-
-# 🛠️ Technologies Used
-
-⚛️ React.js
-
-🟨 JavaScript (ES6+)
-
-🌐 HTML5
-
-🎨 CSS3
-
-📊 Data Visualization
-
-📱 Responsive Web Design
-
-🔄 Git & GitHub
-
-💻 Visual Studio Code
-
----
-
-# 🔄 Project Workflow
-
-1️⃣ User enters daily lifestyle information
-
-⬇️
-
-2️⃣ System calculates estimated carbon emissions
-
-⬇️
-
-3️⃣ Data is categorized into different emission sources
-
-⬇️
-
-4️⃣ Interactive charts visualize environmental impact
-
-⬇️
-
-5️⃣ Personalized sustainability recommendations are generated
-
-⬇️
-
-6️⃣ User identifies opportunities to reduce their carbon footprint
-
----
-
-# 💼 Real-World Applications
-
-🌱 Sustainability Awareness Programs
-
-🎓 Educational Institutions
-
-🏫 Universities & Colleges
-
-🌍 Environmental Campaigns
-
-♻️ Climate Action Initiatives
-
-🏢 Corporate Sustainability Programs
-
-🌿 Green Lifestyle Tracking
-
----
-
-# 🎓 Skills Demonstrated
-
-✔ Frontend Web Development
-
-✔ React.js Development
-
-✔ JavaScript Programming
-
-✔ UI/UX Design
-
-✔ Responsive Web Design
-
-✔ Data Visualization
-
-✔ Sustainability Analytics
-
-✔ Problem Solving
-
-✔ Environmental Awareness
-
-✔ Project Development
-
----
-
-# 🌱 Learning Outcomes
-
-Through this project, I strengthened my understanding of:
-
-🌍 Sustainability & Climate Awareness
-
-⚛️ React.js Development
-
-💻 Frontend Web Development
-
-📊 Data Visualization
-
-🎨 User Interface Design
-
-📱 Responsive Application Development
-
-🌿 Environmental Analytics
-
-🚀 Real-World Problem Solving
-
----
-
-# 🚀 Future Enhancements
-
-🤖 AI-Based Carbon Footprint Prediction
-
-📱 Mobile Application
-
-🏆 Gamification & Rewards
-
-📊 Advanced Analytics Dashboard
-
-☁ Cloud Database Integration
-
-🔔 Daily Sustainability Reminders
-
-🌐 Multi-Language Support
-
-📈 Community Carbon Footprint Comparison
-
----
-
-# 🙏 Acknowledgements
-
-This project was developed as part of the **1M1B Green Internship (Batch 7)** in collaboration with **AICTE** and **Salesforce**, with the goal of promoting environmental awareness and sustainable living among Indian college students.
-
-I sincerely thank my mentors, faculty members, teammates, and everyone who supported me throughout this journey. Their guidance, encouragement, and valuable feedback played an important role in the successful completion of this project.
-
----
-
-# 👩‍💻 About Me
-
-## **Pragathi BR**
-
-🎓 Final-Year BCA (Artificial Intelligence & Machine Learning) Student
-
-💻 Passionate about Artificial Intelligence, Machine Learning, Data Analytics, Sustainability, Full Stack Development, and Software Engineering.
-
-🌱 I enjoy building innovative, impactful, and user-centric applications that solve real-world challenges.
-
----
-
-# ⭐ Support
-
-If you found this project interesting or helpful,
-
-⭐ **Please consider giving this repository a Star!**
-
-Your support motivates me to continue building innovative and impactful projects.
-
-## 🌍 Together, let's build a greener and more sustainable future! 🌱💚
+### 🔄 Should I Switch?
+![Should I Switch Feature](screenshots/should-i-switch.png)
 ```
+
+*These filenames are examples. Upload your actual screenshots and replace the paths with their real locations.*
+
+## ⚙️ Installation and Setup
+
+### Prerequisites
+
+- Git
+- A modern web browser
+- Python, if required by the backend or supporting scripts
+
+### 1. Clone the repository
+
+Replace the repository URL below with your actual GreenTrace GitHub repository URL.
+
+```bash
+git clone YOUR_GREENTRACE_REPOSITORY_URL
+cd YOUR_GREENTRACE_REPOSITORY_FOLDER
+```
+
+### 2. Open the project
+
+If the project has a standalone `index.html` file and does not require a backend, open that file in your browser or use a local development server.
+
+For example, if Python is installed:
+
+```bash
+python -m http.server 8000
+```
+
+Then open:
+
+`http://localhost:8000`
+
+### 3. Configure the Python component, if required
+
+If your project uses a Python application or backend, follow the dependencies and execution instructions provided in its source files.
+
+If a `requirements.txt` file exists, install the listed dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+*These are general setup examples. The exact startup steps depend on the files and architecture in your repository.*
+
+## 📁 Project Structure
+
+Use the following as a reference when documenting your repository. Replace it with your actual file and folder names.
+
+```text
+GreenTrace/
+├── index.html          # Main webpage, if present
+├── style.css           # Stylesheet, if present
+├── script.js           # Frontend logic, if present
+├── app.py              # Python component, if present
+├── screenshots/        # Screenshots added to the repository
+└── README.md            # Project documentation
+```
+
+Only include files and folders that actually exist in your project.
+
+## 🚀 Live Demo
+
+Explore GreenTrace and its sustainability-focused features:
+
+<p align="center">
+  <a href="https://splendid-fudge-521fc5.netlify.app/">
+    <img src="https://img.shields.io/badge/🌱_Explore_GreenTrace-Visit_Live_Application-15803D?style=for-the-badge&logo=netlify&logoColor=white" alt="Explore GreenTrace"/>
+  </a>
+</p>
+
+## 🔮 Future Improvements
+
+Potential enhancements for future versions include:
+
+- 📊 More detailed product lifecycle visualizations.
+- 🌱 Additional product comparisons.
+- 🔎 More transparent documentation of environmental data sources.
+- 📱 Further improvements to mobile accessibility.
+- 💡 More sustainability education resources.
+- 📈 Expanded environmental indicators, where reliable data is available.
+
+## 🤝 Contributing
+
+Suggestions and improvements are welcome.
+
+1. Fork the repository.
+2. Create a branch for your changes:
+
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+3. Make and test your changes.
+4. Commit your changes:
+
+   ```bash
+   git commit -m "Improve: describe your changes"
+   ```
+
+5. Push the branch and submit a pull request.
+
+## 👩‍💻 Author
+
+**Pragathi BR**
+
+- 💻 **GitHub:** [@pragathidevanga](https://github.com/pragathidevanga)
+- 🔗 **LinkedIn:** [Connect on LinkedIn](https://www.linkedin.com/in/pragathi-br-4b1498405/)
+- 🌐 **Portfolio:** [Visit My Portfolio](https://pragathi-br.vercel.app/)
+
+---
+
+<p align="center">
+  <b>💚 Small choices can inspire a greener future.</b>
+  <br/>
+  <i>Track your impact. Think sustainably. Make informed choices.</i>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:14532D,50:15803D,100:84CC16&height=110&section=footer" width="100%" alt="Forest green and lime footer banner"/>
+</p>
